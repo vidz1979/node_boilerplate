@@ -1,0 +1,23 @@
+{
+  "name": "node_boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate com Node, Sucrase e Nodemon. Debug no VSCode configura (Attach).",
+  "main": "src/app.js",
+  "author": "Junior Vidotti <jrvidotti@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 12.13 <13"
+  },
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "sucrase": "^3.11.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
